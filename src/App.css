@@ -1,0 +1,81 @@
+.App {
+  background-color: white;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 550px;
+  height: 350px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  /*background-color: white;*/
+  background-color: #f7f8fa;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+.Auth-form-info
+{
+   text-align: center;
+   margin-bottom:15%;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.Accountbtn
+{
+   background-color: #6c25ff;
+   font-weight: 600!important;
+   width:300px;
+   margin:auto;
+   padding: 8px;
+}
+
+.Accountbtn:hover
+{
+   background-color: #D04848!important;
+   border-color: #D04848!important;
+   box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+}
+
+.Loginbtn
+{
+  background-color: #cfb9fa;
+  font-weight: 600!important;
+  width:300px;
+  color:#333!important;
+  border-color:#cfb9fa;
+  padding: 8px;
+  margin:auto;
+}
+
+.Loginbtn:hover
+{
+  background-color: #F3B95F!important;
+  border-color: #F3B95F!important;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+}
